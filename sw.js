@@ -1,5 +1,5 @@
 // Habitus by VIRTUS ARS · service worker. Sube V cuando cambies archivos para forzar la actualización.
-const V = "habitus-v1";
+const V = "habitus-v3";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
